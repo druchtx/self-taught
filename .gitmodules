@@ -7,3 +7,9 @@
 [submodule "tools/git/src"]
 	path = tools/git/src
 	url = https://github.com/git/git
+[submodule "golang/src"]
+	path = golang/src
+	url = https://github.com/golang/go.git
+[submodule "kubernetes/src"]
+	path = kubernetes/src
+	url = https://github.com/kubernetes/kubernetes.git
