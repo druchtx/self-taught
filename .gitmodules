@@ -1,0 +1,9 @@
+[submodule "tools/colima/src"]
+	path = tools/colima/src
+	url = https://github.com/abiosoft/colima.git
+[submodule "tools/nix/src"]
+	path = tools/nix/src
+	url = https://github.com/NixOS/nix.dev.git
+[submodule "tools/git/src"]
+	path = tools/git/src
+	url = https://github.com/git/git
