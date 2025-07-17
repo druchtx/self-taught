@@ -13,3 +13,12 @@
 [submodule "kubernetes/src"]
 	path = kubernetes/src
 	url = https://github.com/kubernetes/kubernetes.git
+[submodule "frontend/react/src"]
+	path = frontend/react/src
+	url = https://github.com/facebook/react.git
+[submodule "frontend/react/playground/frontend/vite/src"]
+	path = frontend/react/playground/frontend/vite/src
+	url = https://github.com/vitejs/vite.git
+[submodule "frontend/vite/src"]
+	path = frontend/vite/src
+	url = https://github.com/vitejs/vite.git
