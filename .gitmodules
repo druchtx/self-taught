@@ -22,3 +22,6 @@
 [submodule "frontend/vite/src"]
 	path = frontend/vite/src
 	url = https://github.com/vitejs/vite.git
+[submodule "cloud/gcp/src"]
+	path = cloud/gcp/src
+	url = https://github.com/googleapis/google-cloud-go.git
