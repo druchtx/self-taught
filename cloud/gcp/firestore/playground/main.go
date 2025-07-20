@@ -9,7 +9,7 @@ import (
 )
 
 type Config struct {
-	ProjectID string `env:"PROJECT_ID" envDefault:"druchtx-dev"`
+	ProjectID string `env:"PROJECT_ID" envDefault:"druchtx-local"`
 }
 
 func main() {
@@ -24,11 +24,23 @@ func main() {
 	// specificClient, err := firestore.NewClient(ctx, cfg.ProjectID,database)
 	defer func() { _ = defaultClient.Close() }()
 
-	if _, err = defaultClient.Collection("skills").Doc("test").Set(ctx, map[string]any{
+	skillsRef := defaultClient.Collection("skills")
+	if _, err = skillsRef.Doc("test").Set(ctx, map[string]any{
 		"name":  "go",
 		"level": 1000,
 	}); err != nil {
 		log.Fatalf("Failed to create document: %v", err)
 	}
 
+	_, _, _ = skillsRef.Add(ctx, map[string]any{
+		"name":  "elixir",
+		"level": 9999,
+	})
+	refs, _ := skillsRef.DocumentRefs(ctx).GetAll()
+
+	snaps, _ := defaultClient.GetAll(ctx, refs)
+
+	for _, snap := range snaps {
+		log.Println(snap.Data())
+	}
 }
