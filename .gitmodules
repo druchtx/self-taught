@@ -25,3 +25,6 @@
 [submodule "cloud/gcp/src"]
 	path = cloud/gcp/src
 	url = https://github.com/googleapis/google-cloud-go.git
+[submodule "golang/third-party/tablewriter/src"]
+	path = golang/third-party/tablewriter/src
+	url = https://github.com/olekukonko/tablewriter.git
