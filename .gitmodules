@@ -28,3 +28,9 @@
 [submodule "golang/third-party/tablewriter/src"]
 	path = golang/third-party/tablewriter/src
 	url = https://github.com/olekukonko/tablewriter.git
+[submodule "golang/third-party/opentelemetry/opentelemetry-go/src"]
+	path = golang/third-party/opentelemetry/opentelemetry-go/src
+	url = https://github.com/open-telemetry/opentelemetry-go.git
+[submodule "golang/third-party/opentelemetry/opentelemetry-go-instrumentation/src"]
+	path = golang/third-party/opentelemetry/opentelemetry-go-instrumentation/src
+	url = https://github.com/open-telemetry/opentelemetry-go-instrumentation.git
