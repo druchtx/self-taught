@@ -106,4 +106,13 @@ golang使用eBPF方案进行零代码插桩
 - [How it works](https://github.com/open-telemetry/opentelemetry-go-instrumentation/blob/main/docs/how-it-works.md)
 - [Tutorial](https://github.com/open-telemetry/opentelemetry-go-instrumentation/tree/main/docs/tutorial)
 
+### 基于代码的插桩  
+
+基于代码的插桩主要分为以下几个步骤: 
+
+  1. 导入 OpenTelemetry API 和 SDK 在服务代码中引入 OpenTelemetry。如果是库，只需依赖 API；如果是服务进程，则需依赖 API 和 SDK。
+  2. 配置 OpenTelemetry API；创建 tracer（追踪器）和/或 meter（度量器）提供程序，并为其指定名称和版本，用于标识插桩对象。
+  3. 配置 OpenTelemetry SDK；对于服务进程，需要配置 SDK，将遥测数据导出到分析后端。配置方式可以通过文件或编程实现。
+  4. 创建遥测数据；使用 tracer 和 meter 对象，在代码中生成链路（trace）和指标（metrics）等遥测事件。
+  5. 导出数据；遥测数据可以直接从进程导出，或通过 OpenTelemetry Collector 代理导出到分析工具（如 Jaeger、Prometheus），支持 OTLP 协议。
 
