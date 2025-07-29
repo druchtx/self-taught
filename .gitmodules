@@ -34,3 +34,6 @@
 [submodule "golang/third-party/opentelemetry/opentelemetry-go-instrumentation/src"]
 	path = golang/third-party/opentelemetry/opentelemetry-go-instrumentation/src
 	url = https://github.com/open-telemetry/opentelemetry-go-instrumentation.git
+[submodule "golang/third-party/grpc/src"]
+	path = golang/third-party/grpc/src
+	url = https://github.com/protocolbuffers/protobuf-go.git
