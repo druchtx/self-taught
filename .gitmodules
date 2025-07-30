@@ -37,3 +37,9 @@
 [submodule "golang/third-party/grpc/src"]
 	path = golang/third-party/grpc/src
 	url = https://github.com/protocolbuffers/protobuf-go.git
+[submodule "golang/third-party/repl-gore/src"]
+	path = golang/third-party/repl-gore/src
+	url = https://github.com/x-motemen/gore.git
+[submodule "golang/third-party/cobra/src"]
+	path = golang/third-party/cobra/src
+	url = https://github.com/spf13/cobra.git
