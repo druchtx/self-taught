@@ -43,3 +43,6 @@
 [submodule "golang/third-party/cobra/src"]
 	path = golang/third-party/cobra/src
 	url = https://github.com/spf13/cobra.git
+[submodule "tools/vim/src"]
+	path = tools/vim/src
+	url = https://github.com/iggredible/Learn-Vim.git
