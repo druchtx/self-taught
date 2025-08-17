@@ -46,3 +46,6 @@
 [submodule "tools/vim/src"]
 	path = tools/vim/src
 	url = https://github.com/iggredible/Learn-Vim.git
+[submodule "cloud/gcp/examples"]
+	path = cloud/gcp/examples
+	url = https://github.com/GoogleCloudPlatform/golang-samples
