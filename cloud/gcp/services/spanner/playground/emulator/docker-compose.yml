@@ -1,0 +1,12 @@
+services:
+  spanner:
+    container_name: cloud-spanner-emulator
+    image: gcr.io/cloud-spanner-emulator/emulator:latest
+    ports:
+    # grpc
+    - "9010:9010"
+    # rest
+    - "9020:9020"
+    # its schema and data seems to be all in-memory
+    # volumes:
+
