@@ -49,3 +49,6 @@
 [submodule "cloud/gcp/examples"]
 	path = cloud/gcp/examples
 	url = https://github.com/GoogleCloudPlatform/golang-samples
+[submodule "kubernetes/helm/src"]
+	path = kubernetes/helm/src
+	url = https://github.com/helm/helm.git
