@@ -52,3 +52,9 @@
 [submodule "kubernetes/helm/src"]
 	path = kubernetes/helm/src
 	url = https://github.com/helm/helm.git
+[submodule "golang/third-party/semver/src"]
+	path = golang/third-party/semver/src
+	url = https://github.com/Masterminds/semver.git
+[submodule "tools/beam/src"]
+	path = tools/beam/src
+	url = https://github.com/apache/beam.git
