@@ -58,3 +58,6 @@
 [submodule "tools/beam/src"]
 	path = tools/beam/src
 	url = https://github.com/apache/beam.git
+[submodule "golang/third-party/chromedp/src"]
+	path = golang/third-party/chromedp/src
+	url = https://github.com/chromedp/chromedp.git
