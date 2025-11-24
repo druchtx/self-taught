@@ -61,3 +61,6 @@
 [submodule "golang/third-party/chromedp/src"]
 	path = golang/third-party/chromedp/src
 	url = https://github.com/chromedp/chromedp.git
+[submodule "golang/third-party/dig/src"]
+	path = golang/third-party/dig/src
+	url = https://github.com/uber-go/dig.git
