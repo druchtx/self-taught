@@ -8,3 +8,7 @@
 
 - [Vim Genius](http://vimgenius.com)
 - [Vim Hero](https://www.vim-hero.com)
+
+## references
+
+- [中文手册](https://yianwillis.github.io/vimcdoc/doc/usr_04.html#usr_04.txt)

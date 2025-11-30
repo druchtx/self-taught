@@ -64,3 +64,6 @@
 [submodule "golang/third-party/dig/src"]
 	path = golang/third-party/dig/src
 	url = https://github.com/uber-go/dig.git
+[submodule "bigdata/beam/src"]
+	path = bigdata/beam/src
+	url = https://github.com/apache/beam.git
